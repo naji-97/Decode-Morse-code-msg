@@ -41,7 +41,7 @@
 ### Key Features <a name="key-features"></a>
 
 - [ ] **Decode single morse characters**
-- [ ]**Decode single entire morse words**
+- [ ] **Decode single entire morse words**
 - [ ] **Decode single entire morse messages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
