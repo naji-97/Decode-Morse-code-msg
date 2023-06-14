@@ -31,4 +31,14 @@ def decode_char(char)
   CODES[char].upcase
 end
 
+def decode_word(word)
+  morse_chars = word.split(' ')
+  decoded_chars = morse_chars.map { |morse_char| decode_char(morse_char) }
+  decoded_chars.join('')
+
+  
+end
+puts decode_word("-- -.--   -. .- -- .")
+
+
 puts decode_char('.-')
